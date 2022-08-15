@@ -1,0 +1,66 @@
+@media only screen and (max-width: 900px){
+	.coin_1, .coin_6, .coin_3, .coin{
+		display: none;
+	}
+	.coin_5{
+		right: 257px;
+	}
+	.coin_4{
+		top: 276px;
+		left: 4px;
+	}
+	.menu_btn{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.roadmap_item{
+		flex-wrap: wrap;
+	}
+	.line_2{
+		margin: 0;
+	}
+	.line_1{
+		height: 5px;
+	width: 445px;
+	}
+	.about_us_content{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.headerblock{
+		padding-bottom: 85px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.side_goat_block{
+		flex-wrap: wrap;
+	}
+	.inline_text{
+		font-size: 20px;
+	}
+	.inline_text_2{
+		font-size: 20px;
+	}
+	.title{
+	font-size: 90px;
+	}
+	.subtitle{
+	font-size: 50px;
+	}
+	.side-goat{
+	transform: rotate(90deg);
+	width: 150px;
+	}
+	.side-goat-2{
+		width: 150px;
+		position: absolute;
+		right: 20px;
+		transform: rotate(-90deg);
+	}
+
+}

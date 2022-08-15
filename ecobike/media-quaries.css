@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+  .nav{
+    display: block;
+  }
+  .menu > li > a{
+  	display: none;
+  }
+  .price-block{
+    width: 300px;
+  }
+  .footer-div{
+  margin-left: 0px;
+}
+}

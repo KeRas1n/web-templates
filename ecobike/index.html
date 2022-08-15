@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ECOBIKE</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="media-quaries.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+	<header class = "header">
+
+		<a class="nav" onclick="OpenMobMenu();">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three"></div>
+		</a>
+
+		<ul class="menu">
+			<li><a href="#pricing" class="menu-link">Pricing</a></li>
+			<li><a href="#" class="menu-link">FAQ</a></li>
+			<h1 class="title"><span class="green">ECO</span><span class="black">BIKE</span></h1>
+			<li><a href="#contacts" class="menu-link">Contact Us</a></li>
+			<li><a href="/ecobike/ua" class="menu-link">In Ukrainian</a></li>
+		</ul>
+
+	</header>
+
+	<div class="mob-menu">
+		<ul>
+			<a href="#pricing" class="mob-link" onclick="OpenMobMenu();"><li>Pricing</li></a>
+			<a href="#" class="mob-link" onclick="OpenMobMenu();"><li>FAQ</li></a>
+			<a href="#contacts" class="mob-link" onclick="OpenMobMenu();"><li>Contact Us</li></a>
+			<a href="/ecobike/ua" class="mob-link" onclick="OpenMobMenu();"><li>In Ukrainian</li></a>
+		</ul>
+
+	</div>
+	<center>
+<h2>Your new way of movement<span class="green">.</span></h2>
+</center>
+<div class="flex">
+<div class="bike-block first">
+	<img src="img/side_bike_1.png" class="first-bike-img" width="120px"><br>
+	<center>
+		EcoBike 2.0
+	</center>
+	<div class="first-info-box info-box">Classic & powerful solution.</div>
+
+</div>
+
+<div class="bike-block second">
+	<img src="img/side_bike_2.png" class="second-bike-img" width="120px"><br>
+	<center>
+		EcoBike Electro 2.0
+	</center>
+	<div class="second-info-box info-box">Electro engine for more distance</div>
+</div>
+</div>
+
+<div class="content">
+<div class="howto">
+	<h1 class="sub-title">How does it work?</h1>
+	<div class="flex">
+		<div class="howto-block">
+			<span class="number">01</span><h2>Check bicycles in your area<span class="green">.</span></h2>
+			You can check if our bicycles are available in your region.
+			Ride with us in 69 cities across the world.
+			<br><br><br>
+			<a href="#map"><button class="NiceBtn">Check availability on map<span class="green">.</span></button></a>
+		</div>
+		<div class="howto-block">
+			<span class="number">02</span><h2>Get our app and make an account<span class="green">.</span></h2>
+			<a href=""><img src="img/google-play-badge.png" width="150px"></a>
+			<a href=""><img src="img/app-store-badge.png" width="150px"></a>
+		</div>
+		<div class="howto-block">
+			<span class="number">03</span><h2>Scan a QR on a bike<span class="green">.</span></h2>
+			Use an app to scan a QR code from bicycle and unlock it!<br>
+			Travel safe!
+		</div>
+	</div>
+</div>
+<div class="why-we">
+<h2 class="sub-title">Why we?</h2>
+
+<div class="why-we-block">
+<h2>No air pollution.</h2>
+Using bicycles is very helpful for our environment. You do not make an air pollution while using them.
+</div>
+
+<div class="why-we-block">
+<h2>Travel around the world with us.</h2>
+Having our app on your mobile device can help you to find us in new city where you moved to.
+</div>
+
+<div class="why-we-block">
+<h2>Easy & Cheap.</h2>
+You shouldn't spend a lot of money for purchasing a bicycle, find a place for keeping it, with us, you just enjoy your trip!
+</div>
+
+
+</div>
+<a class="anchor" id="pricing"></a>
+<div class="pricing" id="">
+<h2 class="sub-title">How much
+will you pay? </h2>
+<div class="flex">
+		<div class="howto-block price-block">
+			<h2>Single Use<span class="green">.</span></h2>
+			<br>
+			<center>
+			<img src="img/stopwatch.png" width="50px"></center>
+
+			<div class="price">
+				<span class="tariff">EcoBike</span><br> 1$ in 10m<br>
+				<span class="tariff">EcoBike Electro</span><br> 1.5$ in 10m
+			</div>
+		</div>
+		<div class="howto-block price-block">
+			<h2>Mounth Subscription<span class="green">.</span></h2>
+			<br>
+			<center>
+			<img src="img/calendar.png" width="50px"></center>
+
+			<div class="price">
+				<span class="tariff">EcoBike</span><br> 60$<br>
+				<span class="tariff">EcoBike Electro</span><br> 50$
+			</div>
+
+		</div>
+		<div class="howto-block price-block">
+			<h2>Year Subscription<span class="green">.</span></h2>
+			<br>
+			<center>
+			<img src="img/calendar365.png" width="50px"></center>
+
+			<div class="price">
+				<span class="tariff">EcoBike</span><br> 250$<br>
+				<span class="tariff">EcoBike Electro</span><br> 200$
+			</div>
+
+		</div>
+	</div>
+
+</div>
+<div class="map" id="map">
+<h2 class="sub-title">Our map</h2>
+<iframe frameborder=0 style='width:100%;height:350px' src='//www.zeemaps.com/pub?group=4447605&x=14.416036&y=50.078213&z=5'> </iframe>
+</div>
+
+</div>
+<div class="footer" id="footer">
+<div class="flex-footer">
+	<div class="footer-div">
+		<h2>About EcoBike</h2>
+		<ul class="not-ul">
+			<li><a href="">News</a></li>
+			<li><a href="">Privacy Policy</a></li>
+			<li><a href="">Contacts</a></li>
+		</ul>
+
+	</div>
+	<div class="footer-div" id="contacts">
+		<h2>Contacts</h2>
+		<ul class="not-ul">
+			<li>1600 Pennsylvania Avenue NW, Washington, DC 20500, USA</li>
+			<li>support@ecobike.org</li>
+			<li>+380269162851</li>
+		</ul>
+	</div>
+</div>
+<center>
+<h3>© 2022 EcoBike. All rights reserved.</h2></center>
+</div>
+<footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</footer>
+</body>
+</html>

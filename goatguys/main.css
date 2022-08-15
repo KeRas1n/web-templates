@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	/*font-family: 'Iceland', cursive;*/
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #050024;
+    overflow-x: hidden;
+}
+html{
+	scroll-behavior: smooth;
+}
+.nav > ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.nav > ul > li{
+	margin-left: 90px;
+	width: 200px;
+	text-align: center;
+}
+.nav > ul > li > a{
+	font-family: 'Inter', sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	transition: .32s;
+
+	text-decoration: underline 0.05em rgba(0, 0, 0, 0);
+
+}
+.nav > ul > li > a:hover{
+	color: #ffa800;
+	text-decoration-color: #ffa800;
+}
+.menu-link{
+
+}
+.menu-link:hover {
+
+}
+
+.headerblock{
+	padding-top: 17px;
+	padding-bottom: 25px;
+
+	background: rgb(103,0,80);
+	background: linear-gradient(90deg, rgba(103,0,80,1) 0%, rgba(214,2,127,1) 100%);
+
+	font-family: 'Iceland', cursive;
+
+	border-radius: 0 0 100px 100px;
+
+	/*box-shadow: 0 5px 10px rgb(103 0 80 /0.8);*/
+}
+.title{
+	font-size: 150px;
+}
+.subtitle{
+	font-size: 90px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
+.yellow{
+	color: #ffa800;
+	text-shadow: 0 5px 10px rgb(255 168 0 /0.5);
+
+}
+.email-sub{
+	margin-top: 50px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.email-sub > input{
+	font-family: 'Inter', sans-serif;
+	border: none;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	width: 250px;
+	font-size: 15px;
+}
+.email-sub > button{
+	margin-left: 5px;
+}
+button{
+	font-size: 15px;
+	font-family: 'Inter', sans-serif;
+	background-color:#ffa800;
+	border: none;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	transition: .2s;
+}
+button:hover{
+	background-color:#ff8f00;
+}
+.info-text{
+	font-family: 'Inter', sans-serif;
+	font-size: 10px;
+	color: gray;
+}
+
+.coin{
+	position: fixed;
+	z-index: 1;
+	filter: blur(3px);
+	animation-name: floating;
+  	animation-duration: 8s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0%   {margin-top: 0px}
+  /*25% 	{margin-top: 0px; width: 50px}*/
+  50%  {margin-top: 50px}
+  100% {margin-top: 0px}
+}
+
+
+.coin_1{
+	width: 150px;
+	top: 55px;
+	left: 90px;
+}
+.coin_2{
+	transform: rotate(45deg);
+	width: 80px;
+	top: 105px;
+	left: 250px;
+}
+.coin_3{
+	transform: rotate(-20deg);
+	width: 100px;
+	top: 400px;
+	right: 180px;
+}
+.coin_4{
+	transform: rotate(20deg);
+	width: 100px;
+	top: 300px;
+	left: 100px;
+}
+.coin_5{
+	transform: rotate(20deg);
+	top: 100px;
+	width: 100px;
+  	right: 180px;
+}
+.coin_6{
+	transform: rotate(20deg);
+	top: 200px;
+	width: 150px;
+  	right: 80px;
+}
+
+.end-head{
+	position: absolute;
+	margin-top: 0px;
+	z-index: 2;
+	background-color: #050024;
+	width: 100%;
+	height: 50px;
+}
+.main{
+	 position: relative;
+	 margin-top: 15px;
+	z-index: 2;
+	background-color: #050024;
+}
+.side-goat{
+	transform: rotate(90deg);
+	width: 300px;
+}
+.side-goat-2{
+	width: 300px;
+	position: absolute;
+	right: 37px;
+	transform: rotate(-90deg);
+}
+
+
+
+.side_goat_block{
+	display: flex;
+	align-items: center;
+}
+.margintop{
+	margin-top: 100px;
+}
+.inline_text{
+	position: absolute;
+	right: 15px;
+	width: 50%;
+	font-size: 60px;
+	text-decoration: underline #ff8f00;
+	text-align: right;
+}
+.inline_text_2{
+	position: absolute;
+	left: 15px;
+	width: 50%;
+	font-size: 60px;
+	text-decoration: underline #ff8f00;
+}
+.about-us{
+	padding: 65px;
+	margin-top: 250px;
+
+	background: rgb(103,0,80);
+	background: linear-gradient(90deg, rgba(103,0,80,1) 0%, rgba(214,2,127,1) 100%);
+
+	border-radius: 100px;
+}
+.block_title{
+	color: #ff8f00;
+	font-family: 'Iceland', cursive;
+	text-align: center;
+	font-size: 70px;
+}
+.line_1{
+	background-color: #ff8f00;
+	height: 350px;
+	width: 5px;
+	margin: 20px;
+}
+.line_2{
+	background-color: #ff8f00;
+	height: 150px;
+	width: 8px;
+	margin: -50px;
+	display: fixed;
+}
+.about_us_content{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.roadmap_content{
+	column-count: 1;
+	column-gap: 50px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.roadmap_num{
+	width: 350px;
+	color: #ff8f00;
+	font-family: 'Iceland', cursive;
+	text-align: center;
+	font-size: 70px;
+}
+.roadmap_title{
+	width: 350px;
+	color: #ff8f00;
+	font-family: 'Iceland', cursive;
+	text-align: center;
+	font-size: 70px;
+
+}
+.roadmap_item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.date{
+	font-size: 30px;
+	display: block;
+}
+
+.pre-footer{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Iceland', cursive;
+	font-size: 25px;
+}
+.pre-footer > img{
+	border-radius: 100%;
+	width: 200px;
+}
+.social{
+	font-family: 'Iceland', cursive;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 5px;
+	padding: 5px;
+}
+footer{
+	font-family: 'Iceland', cursive;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+a{
+	color: white;
+	transition: .2s;
+}
+a:hover{
+	color: #ff8f00;
+}
+.mobile-menu{
+	height: 100vh;
+	width: 100%;
+	background-color: #ff8f00;
+	text-align: center;
+	font-size: 40px;
+	padding: 0px;
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	left: -1015px;
+	transition: 1s;
+	display: none;
+}
+.menu_btn > div{
+	background-color: white;
+	width: 60px;
+	height: 5px;
+	margin: 10px;
+}
+.menu_close_btn > div{
+	background-color: white;
+	width: 60px;
+	height: 5px;
+}
+.menu_btn{
+	display: none;
+}
+.one{
+	transform: rotate(-50deg);
+	margin-top: 25px;
+}
+.two{
+	transform: rotate(50deg);
+	margin-top: -5px;
+}
+ul{
+	list-style: none;
+}
